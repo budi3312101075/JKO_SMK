@@ -12,7 +12,7 @@ const Home = () => {
         className="bg-cover h-screen w-screen flex items-center justify-center"
         style={{ backgroundImage: "url('./Motherboard.jpg')" }}
       >
-        <h1 className="text-white text-3xl text-center w-[850px]">
+        <h1 className="text-white text-3xl text-center w-[850px] ">
           Kami mengutamakan kepuasan pelanggan. kami akan memberikan layanan
           yang ramah dan komunikatif dengan harga yang terjangkau
         </h1>
@@ -31,11 +31,11 @@ const Home = () => {
           Selengkapnya
         </button>
       </div>
-      <div className="h-[75vh] ">
+      <div className="h-[75%] ">
         <h1 className="text-center text-4xl font-bold mt-5">
           Kami Siap melayani
         </h1>
-        <div className="flex justify-evenly mt-10">
+        <div className="flex justify-evenly mt-10 pb-20">
           <Card
             gambar="https://img.icons8.com/pastel-glyph/64/FA5252/laptop--v1.png"
             judul="Service Komputer"
@@ -54,7 +54,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="h-[75vh] bg-gray-100 p-20">
+      <div className="h-[75%] bg-gray-100 p-20">
         <h1 className="text-2xl font-bold ml-16">Galeri Service</h1>
         <div className="flex justify-evenly gap-32 mt-10">
           <Galeri
